@@ -1,7 +1,9 @@
-import React from 'react'
-
+import React from "react";
+import { LeftSideBars } from "../style";
 export default function LeftSideBar() {
   return (
-    <div>LeftSideBar</div>
-  )
+    <LeftSideBars>
+      <div>LeftSideBar</div>
+    </LeftSideBars>
+  );
 }

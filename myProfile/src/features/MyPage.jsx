@@ -1,11 +1,14 @@
 import React from "react";
 import LeftSideBar from "./Components/header/LeftSideBar";
 import RightSideBar from "./Components/body/RightSideBar";
+import { PageStyled } from "./Components/style/index";
 function MyPage(props) {
   return (
     <React.Fragment>
-      <LeftSideBar />
-      <RightSideBar />
+      <PageStyled>
+        <LeftSideBar />
+        <RightSideBar />
+      </PageStyled>
     </React.Fragment>
   );
 }

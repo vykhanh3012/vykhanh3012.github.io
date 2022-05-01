@@ -1,7 +1,9 @@
-import React from 'react'
-
+import React from "react";
+import { RightSideBars } from "../style";
 export default function RightSideBar() {
   return (
-    <div>RightSideBar</div>
-  )
+    <RightSideBars>
+      <div>RightSideBar</div>
+    </RightSideBars>
+  );
 }
